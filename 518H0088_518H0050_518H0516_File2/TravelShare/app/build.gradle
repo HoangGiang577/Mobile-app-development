@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.0"
+
+    defaultConfig {
+        applicationId "com.duan.travelshare"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // tạo avatar viền tròn
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.firebase:firebase-analytics:17.4.4'
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.wear:wear:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //Thao tác dữ liệu với firebase
+    implementation 'com.google.firebase:firebase-database:19.3.1'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    //Login, quản user
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    //DÙng cho bản đồ
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    //Upload file ảnh, ảnh phòng
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    //Bắn thông báo cho thiết bị
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:25.3.1'
+    //Chuyển giao,. convert ảnh hiển thị
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'com.facebook.android:facebook-login:5.15.3'
+
+    //Sử dụng bắn thông báo, chuyển giao data json
+    implementation 'com.android.volley:volley:1.1.0'
+    //Sử dụng bắn thông báo, chuyển giao data json
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Sử dụng cho data firebase
+    compile 'com.firebaseui:firebase-ui-database:0.4.1'
+    // Hiệu ứng load mờ ảo như fb
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    //Lấy data để bắn notification
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border2"
+    android:padding="8dp">
+
+
+    <TextView
+        android:background="@color/blue"
+        android:theme="@style/title"
+        android:textAlignment="center"
+        android:id="@+id/txtRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/change_pass"
+        android:textColor="@color/bg"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilMKC"
+        android:layout_marginBottom="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_below="@+id/edtRegUser"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:drawablePadding="10dp"
+            android:id="@+id/edtOldPassword"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/pass"
+            android:hint="@string/input_pass_old"
+            android:inputType="textPassword"
+            android:padding="10dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilMKM"
+        android:layout_marginBottom="8dp"
+        android:layout_width="fill_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:drawablePadding="10dp"
+            android:id="@+id/edtPasswordNew"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/pass"
+            android:hint="@string/input_pass_new"
+            android:inputType="textPassword"
+            android:padding="10dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilMKM2"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:drawablePadding="10dp"
+            android:id="@+id/edtPasswordNew2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/pass"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/pass"
+            android:hint="@string/input_again_pass_new"
+            android:inputType="textPassword"
+            android:padding="10dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnChangePass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:padding="10dp"
+            android:text="@string/change_pass"
+            android:textColor="@color/bg"
+            android:textStyle="bold" />
+
+        <Button
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/btnCanclePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:text="@string/cancle"
+            android:textColor="@color/bg" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544446656625",
+    "firebase_url": "https://truyen-60710.firebaseio.com",
+    "project_id": "truyen-60710",
+    "storage_bucket": "truyen-60710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544446656625:android:858dc1884c5f5e77afabd0",
+        "android_client_info": {
+          "package_name": "com.duan.travelshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544446656625-sk6m80pujujnmp166lql69obe85vf9ct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.duan.travelshare",
+            "certificate_hash": "d3767f2bd6932019c78d7298d8bcab5b7c4d222b"
+          }
+        },
+        {
+          "client_id": "544446656625-jeo4vk3jr054pqdjig6muh05kcdnokeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7PMg7xTV4M7TSnSV5IUMxBk9zNKhuUQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544446656625-7n5vha8b745qn8bp7f7qe1hu3esdpcor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

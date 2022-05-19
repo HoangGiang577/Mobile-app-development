@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3BB8E6</color>
+    <color name="colorPrimaryDark">#3BB8E6</color>
+    <color name="colorAccent">#3BB8E6</color>
+    <color name="blue">#3BB8E6</color>
+    <color name="edit">#F6F6F6</color>
+    <color name="hint">#9F9F9F</color>
+    <color name="hint2">#F6F6F6</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="blue1">#0000FF</color>
+    <color name="placeholder_bg">#dddddd</color>
+</resources>

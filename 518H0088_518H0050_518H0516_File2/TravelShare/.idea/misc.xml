@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/border.xml" value="2.9464285714285716" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/border2.xml" value="1.4285714285714286" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/border3.xml" value="1.4285714285714286" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/border_image.xml" value="1.4285714285714286" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/borderavatar.xml" value="1.4285714285714286" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/default_dot.xml" value="1.4285714285714286" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/drawable/ic_launcher_background.xml" value="1.4285714285714286" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/activity_hello.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/activity_main.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.5192708333333333" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/call.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/change_pass.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/datphong.xml" value="0.5192708333333333" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/fragment_chi_tiet_phong.xml" value="0.5192708333333333" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/fragment_chu_g_d.xml" value="0.5192708333333333" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/fragment_home.xml" value="0.5192708333333333" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/fragment_login.xml" value="0.5192708333333333" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/fragment_maneger_phong_thue.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/fragment_register.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/layout/giaodich.xml" value="0.9714285714285714" />
+        <entry key="..\:/Users/jangg/AndroidStudioProjects/TravelShare/app/src/main/res/menu/menu_bottom.xml" value="0.34074074074074073" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
